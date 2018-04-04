@@ -4,7 +4,7 @@
 // MonoBehaviourの機能を使いたい場合は、こっちを使う
 // 主に、コルーチンだったり、Unityから呼び出されるStartやUpdateを使いたい時等
 // つまり、こっちのシングルトンは、自分自身で独立して動ける
-public class SimpleMonoDevelopSingleton<T> : MonoBehaviour where T : MonoBehaviour {
+public class SimpleMonoBehaviourSingleton<T> : MonoBehaviour where T : MonoBehaviour {
     protected static T mInstance;
     public static T Instance {
         get {
