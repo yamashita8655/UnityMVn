@@ -11,6 +11,9 @@ public class Execute : MonoBehaviour {
 		
 		SampleSingletonClass2.Instance.Initialize();
 		SampleSingletonClass2.Instance.Initialize();
+		
+		SampleSingletonClass3.Instance.Initialize();
+		SampleSingletonClass3.Instance.DisplayParameter();
 	}
 	
 	// Update is called once per frame
